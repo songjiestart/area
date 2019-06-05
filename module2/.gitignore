@@ -1,37 +1,30 @@
-# logger
-provider/CATALINA_BASE_IS_UNDEFINED/*
+*.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# kdiff3 ignore
-*.orig
-
-# maven ignore
-target/
-
-# eclipse ignore
-.settings/
-.project
+### STS ###
+.apt_generated
 .classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# idea ignore
-.idea/
-*.ipr
-*.iml
+### IntelliJ IDEA ###
+.idea
 *.iws
+*.iml
+*.ipr
 
-# temp ignore
-*.log
-*.cache
-*.diff
-*.patch
-*.tmp
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+/.mvn/
 
-# system ignore
-.DS_Store
-Thumbs.db
-
-# package ignore (optional)
-# *.jar
-# *.war
-# *.zip
-# *.tar
-# *.tar.gz
+### VS Code ###
+.vscode/
